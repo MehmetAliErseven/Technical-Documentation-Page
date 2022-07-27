@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation Page</title>
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header>Front-End Documentation</header>
+        <ul>
+        <li>
+          <a href="#Html" class="nav-link">Html</a>
+          </li>
+        <li>
+          <a href="#Css" class="nav-link">Css</a>
+          </li>
+        <li>
+          <a href="#Css_Frameworks" class="nav-link">Css Frameworks</a>
+          </li>
+        <li>
+          <a href="#Js" class="nav-link">Js</a>
+          </li>
+        <li>
+         <a href="#Js_Frameworks" class="nav-link">Js Frameworks</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="top_background"></div>
+      <div id="allsection">
+        <span class="anchor" id="Html"></span>
+      <section class="main-section">
+        <header>Html</header>
+        <article>
+        <p>HTML is the standard markup language for creating Web pages.</p>
+        <p class="question">What is HTML?</p>
+        <ul>
+          <li>HTML stands for Hyper Text Markup Language</li>
+          <li>HTML is the standard markup language for creating Web pages</li>
+          <li>HTML describes the structure of a Web page</li>
+          <li>HTML consists of a series of elements</li>
+          <li>HTML elements tell the browser how to display the content</li>
+          <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+        </ul>
+        <p class="question">What is an HTML Element?</p>
+        <p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+     <code><<span>tagname<span>>Content goes here...<<span>tagname<span>></code>
+      <p>The HTML <strong>element</strong> is everything from the start tag to the end tag:</p>
+      <code><<span>h1<span>>My First Heading<<span>h1<span>></code>
+      <br><br>
+      <code><<span>p<span>>My first paragraph.<<span>p<span>></code>
+      <p><strong>Note:</strong> Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!</p>
+      </article>
+      </section>
+      <span class="anchor" id="Css"></span>
+      <section class="main-section">
+        <header>Css</header>
+        <article>
+        <p>CSS is the language we use to style a Web page.</p>
+        <p class="question">What is CSS?</p>
+        <ul>
+          <li>CSS stands for Cascading Style Sheets</li>
+          <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+          <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+          <li>External stylesheets are stored in CSS files</li>
+        </ul>
+        <p class="question">Why Use CSS?</p>
+    <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+        <p class="question">CSS Solved a Big Problem</p>
+        <p>HTML was NEVER intended to contain tags for formatting a web page!
+        </p>     
+<p>HTML was created to describe the content of a web page, like:</p>
+<code><<span>h1<span>>This is a heading<<span>h1<span>></code>
+<br><br>
+<code><<span>p<span>>This is a paragraph.<<span>p<span>></code>
+<p>
+When tags like <code><<span>font</span>></code>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.</p>
+       </article>
+      </section>
+      <span class="anchor" id="Css_Frameworks"></span>
+      <section class="main-section">
+        <header>Css Frameworks</header>
+        <img alt="Top Css Frameworks" src="https://i0.wp.com/www.infopediya.com/wp-content/uploads/2022/03/top-css-frameworks-2022.webp?fit=900%2C473&ssl=1">
+        </section>
+        <span class="anchor" id="Js"></span>
+      <section class="main-section">
+        <header>Js</header>
+        <article>
+          <p class="question">JavaScript Can Change HTML Content</p>
+          <p>One of many JavaScript HTML methods is <code>getElementById()</code>.</p>
+          <p>The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript"</p>
+          <code>document.getElementById("demo").innerHTML = "Hello JavaScript";</code>
+          <br>
+          <p class="question">JavaScript Can Change HTML Attribute Values</p>
+          <p>JavaScript can change the value of the <code>src</code> (source) attribute of an <code><<span>img</span>></code> tag.</p>
+          <p class="question">JavaScript Can Change HTML Styles (CSS)</p>
+          <p>Changing the style of an HTML element, is a variant of changing an HTML attribute:</p>
+          <code>document.getElementById("demo").style.fontSize = "35px";</code>
+          <br>
+          <p class="question">JavaScript Can Hide HTML Elements</p>
+          <p>Hiding HTML elements can be done by changing the <code>display</code> style:</p>
+          <code>document.getElementById("demo").style.display = "none";</code>
+          <br><br>
+        </article>
+      </section>
+      <span class="anchor" id="Js_Frameworks"></span>
+      <section class="main-section">
+        <header>Js Frameworks</header>
+        <img alt="Best Js Frameworks" src="https://peerbits-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/frontend-frameworks-main.jpg">
+      </section>
+      </div>
+    </main>
+  </body>
+</html>
